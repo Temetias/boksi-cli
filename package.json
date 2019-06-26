@@ -1,0 +1,27 @@
+{
+  "name": "@temetias/boksi-cli",
+  "version": "0.0.0",
+  "description": "Boksi command line interface",
+  "main": "src/cli.js",
+  "bin": {
+    "@temetias/boksi-cli": "bin/boksi-cli",
+    "boksi-cli": "bin/boksi-cli"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "cli",
+    "boksi-cli"
+  ],
+  "author": "Teemu Karppinen",
+  "license": "MIT",
+  "dependencies": {
+    "arg": "^4.1.0",
+    "esm": "^3.2.25",
+    "inquirer": "^6.4.1"
+  }
+}
